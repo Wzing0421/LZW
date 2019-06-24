@@ -5,10 +5,11 @@
 #include <map>
 #include <vector>
 #include <fstream>
+
 using namespace std;
 
 map <string, int> dict;
-map <int, string> revdict; //这是用来存储译码的时候的字典的
+map <int, string> revdict;
 struct encodeinfo
 {
 	string P;
